@@ -18,7 +18,7 @@ $dotenv = Dotenv\Dotenv::createImmutable(__DIR__);
 $dotenv->load();
 
 $app = AppFactory::create();
-$app->setBasePath('/public');
+$app->setBasePath('/app');
 $app->addBodyParsingMiddleware();
 $app->addRoutingMiddleware();
 
