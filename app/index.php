@@ -6,7 +6,7 @@ use Psr\Http\Server\RequestHandlerInterface as RequestHandler;
 use Slim\Routing\RouteCollectorProxy;
 use Slim\Routing\RouteContext;
 
-require __DIR__ . '/../vendor/autoload.php';
+require __DIR__ . '/vendor/autoload.php';
 require_once './controllers/PersonalController.php';
 require_once './controllers/ProductoController.php';
 require_once './controllers/MesaController.php';
